@@ -1,0 +1,292 @@
+[
+    {
+      "text": "In termini lineari, se servono 10 passi per percorrere 10 metri, quanti passi serviranno per percorrere 20 metri?",
+      "options": ["10", "20", "30", "40"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "La percezione uditiva segue logiche lineari?",
+      "options": ["Sì", "No", "A volte", "Dipende"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "In una scala lineare, ogni step è della stessa grandezza di quale elemento?",
+      "options": ["Step successivo", "Step precedente", "Metà dello step precedente", "Doppio dello step precedente"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "In una scala logaritmica, ogni step mantiene la stessa proporzione di quale elemento?",
+      "options": ["Step successivo", "Step precedente", "Metà dello step precedente", "Doppio dello step precedente"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "La pressione sonora è misurata in quale unità di misura?",
+      "options": ["Watt", "Hertz", "Pascal", "Decibel"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Qual è l'unità di misura del Bel?",
+      "options": ["Metri", "Secondi", "Rapporto tra due valori", "Watt"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Come è definito il decibel (dB) rispetto al Bel?",
+      "options": ["Il doppio di un Bel", "La metà di un Bel", "La decima parte di un Bel", "Dieci volte un Bel"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Cosa misurano Bel e decibel?",
+      "options": ["Pressione sonora", "Rapporti di potenze", "Tensione elettrica", "Frequenza"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Per i livelli di potenza, quale formula è corretta per il calcolo dei dB?",
+      "options": ["dB = 20log10(W/Wref)", "dB = 10log10(W/Wref)", "dB = log10(W/Wref)", "dB = 5log10(W/Wref)"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Per i valori non di potenza, quale formula è corretta per il calcolo dei dB?",
+      "options": ["dB = 20log10(X/Xref)", "dB = 10log10(X/Xref)", "dB = log10(X/Xref)", "dB = 5log10(X/Xref)"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Di quanti dB varia il livello quando si raddoppia o si dimezza la potenza?",
+      "options": ["1 dB", "3 dB", "6 dB", "10 dB"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Di quanti dB varia il valore misurato quando si raddoppia o si dimezza (valori non di potenza)?",
+      "options": ["1 dB", "3 dB", "6 dB", "10 dB"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Qual è la formula per il calcolo del dBu?",
+      "options": ["dBu = 10log10(V/0,775V)", "dBu = 20log10(V/1V)", "dBu = 20log10(V/0,775V)", "dBu = 10log10(V/1V)"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Qual è il livello di ascolto ottimale in dBSPL?",
+      "options": ["65 dBSPL", "75 dBSPL", "85 dBSPL", "95 dBSPL"],
+      "correctAnswerIndex": 2
+    },
+      {
+      "text": "Qual è la soglia del dolore approssimativa in dBSPL?",
+      "options": ["100 dBSPL", "115 dBSPL", "125 dBSPL", "135 dBSPL"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "text": "Qual è il livello di linea ottimale in dBu?",
+      "options": ["+2 dBu", "+4 dBu", "+6 dBu", "+8 dBu"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "In quale dominio i segnali viaggiano sotto forma di segnali elettrici continuamente variabili?",
+      "options": ["Digitale", "Analogico", "Entrambi", "Nessuno dei due"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Come vengono registrati i segnali nel dominio analogico?",
+      "options": ["Come sequenze di bit", "Come variazioni di frequenza", "Come variazioni di campo magnetico", "Come impulsi luminosi"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Qual è il livello tecnicamente ottimale di trasmissione nel dominio analogico?",
+      "options": ["0 dBu", "+4 dBu", "-10 dBV", "0 dBV"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "In quale dominio i segnali vengono rappresentati come valori discreti (combinazioni di bit)?",
+      "options": ["Analogico", "Digitale", "Entrambi", "Nessuno dei due"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quale tipo di codifica dell'audio digitale è la più utilizzata e rappresenta lo standard nell'audio professionale?",
+      "options": ["MP3", "AAC", "PCM", "FLAC"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Quale dispositivo viene utilizzato per la digitalizzazione di un segnale analogico?",
+      "options": ["DAC", "ADC", "Mixer", "Amplificatore"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quali sono le due fasi principali della digitalizzazione di un segnale?",
+      "options": ["Compressione e decompressione", "Modulazione e demodulazione", "Campionamento e quantizzazione", "Codifica e decodifica"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Quale dispositivo viene utilizzato per la ricostruzione di un segnale analogico a partire da uno digitale?",
+      "options": ["ADC", "DAC", "Mixer", "Amplificatore"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quale fase della digitalizzazione si occupa dell'asse del tempo?",
+      "options": ["Quantizzazione", "Campionamento", "Entrambe", "Nessuna delle due"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "A condizione di rimanere entro certi limiti, il campionamento è un'operazione di che tipo?",
+      "options": ["Lossy", "Lossless", "Entrambe", "Nessuna delle due"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quale fase della digitalizzazione si occupa della rappresentazione dell'ampiezza?",
+      "options": ["Campionamento", "Quantizzazione", "Entrambe", "Nessuna delle due"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "La quantizzazione è un'operazione di che tipo?",
+      "options": ["Lossy", "Lossless", "Entrambe", "Nessuna delle due"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Cosa stabilisce il teorema del campionamento?",
+      "options": ["Il sample rate deve essere almeno la metà della più alta frequenza da campionare", "Il sample rate deve essere almeno il doppio della più alta frequenza da campionare", "Il sample rate deve essere uguale alla più alta frequenza da campionare", "Il sample rate non influisce sulla ricostruzione del segnale"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Come viene definita la frequenza di campionamento?",
+      "options": ["Numero di bit per campione", "Numero di misurazioni al secondo", "Ampiezza del segnale", "Durata del segnale"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "In quale unità di misura è espressa la frequenza di campionamento?",
+      "options": ["Hertz (Hz)", "Watt (W)", "Volt (V)", "Ampere (A)"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Se il massimo dello spettro udibile è 20 kHz, quale sample rate è necessario per campionare correttamente un segnale a quella frequenza?",
+      "options": ["20 kHz", "30 kHz", "40 kHz", "10 kHz"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Qual è il sample rate standard del CD Audio?",
+      "options": ["44.1 kHz", "48 kHz", "96 kHz", "192 kHz"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Qual è il sample rate standard dell'audio per il video e nel broadcast?",
+      "options": ["44.1 kHz", "48 kHz", "96 kHz", "192 kHz"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quale sample rate è considerato uno standard per l'audio ad alta risoluzione?",
+      "options": ["44.1 kHz", "48 kHz", "96 kHz", "192 kHz"],
+      "correctAnswerIndex": 2
+    },
+     {
+      "text": "Come viene chiamata l'operazione di misurazione e rappresentazione dell'ampiezza di un campione sotto forma di sequenza di bit?",
+      "options": ["Campionamento", "Quantizzazione", "Codifica", "Modulazione"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Come viene chiamata la profondità di bit?",
+      "options": ["Bit rate", "Sample rate", "Bit depth", "Frame rate"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Cosa genera l'approssimazione del segnale in ingresso durante la quantizzazione?",
+      "options": ["Nessun errore", "Rumore bianco", "Errore di quantizzazione", "Distorsione armonica"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Come si presenta la differenza tra il segnale originale e il segnale approssimato?",
+      "options": ["Come un'eco", "Come un segnale sinusoidale", "Come rumore di quantizzazione", "Come distorsione"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Da cosa è data la gamma dinamica di un segnale digitale?",
+      "options": ["Dalla frequenza di campionamento", "Dalla profondità di bit", "Dalla compressione del segnale", "Dalla velocità di trasmissione"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Di quanti dB aumenta la gamma dinamica per ogni bit aggiunto?",
+      "options": ["3 dB", "6 dB", "10 dB", "12 dB"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Qual è la profondità di bit consigliata per un rapporto segnale/rumore ottimale?",
+      "options": ["8 bit", "12 bit", "16 bit", "24 bit"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "In quale unità di misura viene espressa convenzionalmente l'ampiezza di un segnale in un sistema digitale?",
+      "options": ["dBu", "dBV", "dBFS", "dBSPL"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Cosa significa l'acronimo dBFS?",
+      "options": ["Decibel Full Scale", "Decibel Floating System", "Digital Bit Full Scale", "Digital Bel Frequency Standard"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Qual è l'ampiezza massima rappresentabile in dBFS?",
+      "options": ["+1 dBFS", "0 dBFS", "-1 dBFS", "Dipende dal sistema"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Cosa causa il tentativo di esprimere un valore maggiore di 0 dBFS?",
+      "options": ["Rumore bianco", "Distorsione armonica", "Eco", "Nessun effetto"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Cosa è necessario conoscere per effettuare la conversione tra dBu e dBFS?",
+      "options": ["La frequenza del segnale", "La profondità di bit", "Il valore di tensione massimo del convertitore", "La marca del convertitore"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "text": "Qual è l'equivalenza standard universalmente accettata in ambito professionale tra dBu e dBFS?",
+      "options": ["+4 dBu = -16 dBFS", "+4 dBu = -18 dBFS", "+4 dBu = 0 dBFS", "+4 dBu = +16 dBFS"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "A quale valore di ampiezza viene generato il segnale di test (sinusoide con frequenza di 1 kHz)?",
+      "options": ["-16 dBFS", "-18 dBFS", "0 dBFS", "+4 dBu"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quale tra questi NON è un formato di file che Pro Tools può importare?",
+      "options": [".wav", ".mp3", ".aiff", ".ptx"],
+      "correctAnswerIndex": 3
+    },
+    {
+     "text": "Quale tra questi è il formato di file nativo delle sessioni di Pro Tools?",
+      "options": [".wav", ".mp3", ".aiff", ".ptx"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "text": "Quale cartella contiene i file audio importati e creati in Pro Tools?",
+      "options": ["Session File Backups", "Audio Files", "Bounced Files", "Clip Groups"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quale cartella contiene le copie di backup del file .ptx?",
+      "options": ["Session File Backups", "Audio Files", "Bounced Files", "Clip Groups"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Quale file contiene le informazioni relative alla visualizzazione grafica delle forme d'onda?",
+      "options": ["Nome_sessione.ptx", "WaveCache.wfm", "Clip Groups", "Video Files"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Cosa sono le clip in Pro Tools?",
+      "options": ["File audio interi", "Porzioni di file audio", "Contenitori di metadati", "Plugin"],
+      "correctAnswerIndex": 3
+    },
+     {
+      "text": "Quali sono le due categorie in cui si dividono le clip?",
+      "options": ["Audio clip e MIDI clip", "Whole-file clip e Subset clip", "Clip attive e clip inattive", "Clip compresse e clip non compresse"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quale tipo di clip fa riferimento a un file intero?",
+      "options": ["Subset clip", "Whole-file clip", "Entrambe", "Nessuna delle due"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Quali tra queste sono le finestre principali di Pro Tools?",
+      "options": ["Edit Window e Mix Window", "Transport Window e MIDI Editor", "Score Editor", "Tutte le precedenti"],
+      "correctAnswerIndex": 3
+    }
+]
