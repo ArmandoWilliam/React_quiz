@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Quiz EPT</h1>
+      <h1>Quiz - Editing e Pro Tools</h1>
       {!quizEnded ? (
         <div className="question-container">
           <Question
