@@ -1,3 +1,7 @@
+# What's this project about
+
+It's a simple quiz useful in many situations where you have a database of questions in json, you can just change the "question.json" file contained in this project with yours and enjoy your quiz to be prepared for you next exam. Good Luck!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
