@@ -87,10 +87,10 @@ button:focus {
   color: #777;
 }
 
-.correct {
-  background-color: #a8f0c6;
+.question-container button.correct {
+    background-color: #a8f0c6;
 }
 
-.incorrect {
-  background-color: #e75b5b;
+.question-container button.incorrect {
+    background-color: #e75b5b;
 }
