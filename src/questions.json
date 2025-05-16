@@ -126,7 +126,7 @@
     },
     {
       "text": "A condizione di rimanere entro certi limiti, il campionamento è un'operazione di che tipo?",
-      "options": ["Lossy", "Lossless", "Entrambe", "Nessuna delle due"],
+      "options": ["Lossy", "Lossless (con un margine di perdita di informazione)", "Entrambe", "Nessuna delle due"],
       "correctAnswerIndex": 1
     },
     {
@@ -288,5 +288,896 @@
       "text": "Quali tra queste sono le finestre principali di Pro Tools?",
       "options": ["Edit Window e Mix Window", "Transport Window e MIDI Editor", "Score Editor", "Tutte le precedenti"],
       "correctAnswerIndex": 3
-    }
+    },
+
+    {
+    "text": "Qual è uno dei principali motivi per cui si usa Pro Tools?",
+    "options": [
+      "È economico",
+      "È lo standard de facto nella produzione audio",
+      "È difficile da usare",
+      "Non è compatibile con altri software"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale versione di Pro Tools NON è menzionata nelle slide?",
+    "options": ["Pro Tools Intro", "Pro Tools Artist", "Pro Tools Studio", "Pro Tools Basic"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale software è il 'centro di controllo' per l'installazione e l'aggiornamento di Pro Tools?",
+    "options": ["iLok License Manager", "Avid Link", "Pro Tools", "Avid Control"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale metodo può essere utilizzato per l'autorizzazione della licenza di Pro Tools?",
+    "options": ["Solo iLok fisico", "Solo iLok cloud", "Sia iLok fisico che iLok cloud", "Nessuno dei due"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale periferica USB contiene i dati delle licenze per Pro Tools?",
+    "options": ["Avid Link", "iLok fisico", "iLok cloud", "Nessuna"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale software è utilizzato per spostare le licenze tra l'iLok cloud e i dispositivi iLok fisici?",
+    "options": ["Avid Link", "Pro Tools", "iLok License Manager", "Nessuno"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa si intende per 'Host-based hardware' in Pro Tools?",
+    "options": [
+      "Pro Tools utilizza acceleratori DSP esterni",
+      "Pro Tools utilizza la potenza di calcolo del computer",
+      "Pro Tools non utilizza hardware",
+      "Pro Tools richiede hardware specifico Avid"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa sono gli acceleratori DSP?",
+    "options": [
+      "Hardware che supporta la CPU del computer nell'elaborazione audio",
+      "Software per l'elaborazione audio",
+      "Plugin per Pro Tools",
+      "Interfacce audio"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale protocollo è utilizzato nei sistemi HD per la connessione delle interfacce?",
+    "options": ["Thunderbolt", "USB", "Digilink", "FireWire"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale su DSP?",
+    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
+    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Qual è la funzione dei plugin AudioSuite?",
+    "options": [
+      "Elaborazione audio in tempo reale",
+      "Elaborazione audio non in tempo reale",
+      "Controllo dell'interfaccia audio",
+      "Mixaggio automatico"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cos'è ARA 2?",
+    "options": [
+      "Un tipo di interfaccia audio",
+      "Un formato di file audio",
+      "Un'estensione per plugin che consente un'integrazione più profonda",
+      "Un protocollo di comunicazione MIDI"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cos'è l'Avid Audio Engine (AAE)?",
+    "options": [
+      "Un plugin per Pro Tools",
+      "Un'interfaccia audio Avid",
+      "Il sistema operativo real-time per l'elaborazione audio di Pro Tools",
+      "Un formato di file audio"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale menu di Pro Tools contiene i comandi per creare una nuova sessione?",
+    "options": ["Edit", "View", "File", "Track"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "In quale menu di Pro Tools si trovano i comandi per copiare e incollare?",
+    "options": ["File", "Edit", "View", "Track"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale menu di Pro Tools permette di decidere cosa visualizzare nelle finestre?",
+    "options": ["File", "Edit", "View", "Track"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale menu di Pro Tools è dedicato ai comandi relativi alle tracce?",
+    "options": ["File", "Edit", "View", "Track"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "I comandi relativi alle clip si trovano in quale menu di Pro Tools?",
+    "options": ["File", "Clip", "Event", "Audiosuite"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "In quale menu di Pro Tools si trovano i comandi per le operazioni che riguardano il tempo e la tonalità?",
+    "options": ["Event", "Audiosuite", "Options", "Setup"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Quale menu di Pro Tools consente di utilizzare i plugin Audiosuite?",
+    "options": ["Event", "Audiosuite", "Options", "Setup"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa comporta l'utilizzo dei plugin Audiosuite?",
+    "options": [
+      "Elaborazione in tempo reale",
+      "Creazione di un nuovo file audio processato",
+      "Modifica delle impostazioni hardware",
+      "Controllo del mixaggio"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale menu di Pro Tools permette di modificare le impostazioni di editing e monitoraggio?",
+    "options": ["Options", "Setup", "Window", "Help"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "La configurazione hardware e software di Pro Tools si effettua tramite quale menu?",
+    "options": ["Options", "Setup", "Window", "Help"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale menu di Pro Tools consente di visualizzare o nascondere le finestre?",
+    "options": ["Options", "Setup", "Window", "Help"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale schermata consente di creare una nuova sessione in Pro Tools?",
+    "options": ["Playback Engine", "I/O Setup", "Dashboard", "Preferences"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Dove si imposta l'interfaccia da utilizzare con Pro Tools?",
+    "options": ["Dashboard", "Playback Engine", "I/O Setup", "Preferences"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "In quale schermata si mappano gli ingressi e le uscite delle interfacce?",
+    "options": ["Dashboard", "Playback Engine", "I/O Setup", "Preferences"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Dove si modificano le impostazioni di visualizzazione e i plugin di default?",
+    "options": ["Dashboard", "Playback Engine", "I/O Setup", "Preferences"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale tra questi NON è un tipo di hardware su cui si basano i sistemi Pro Tools?",
+    "options": ["Host-based hardware", "DSP-accelerated hardware", "Cloud-based hardware", "Nessuno dei precedenti"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cos'è il Digilink?",
+    "options": [
+      "Un tipo di plugin",
+      "Un protocollo proprietario per la connessione di interfacce",
+      "Un formato di file audio",
+      "Un software per la gestione delle licenze"
+    ],
+    "correctAnswerIndex": 2
+  },
+
+  {
+    "text": "Quale tipo di file contiene tutte le informazioni relative alle operazioni compiute in Pro Tools ma non i file audio stessi?",
+    "options": [".wav", ".ptx", ".aiff", ".mp3"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "In quale cartella vengono salvati automaticamente i file audio importati e creati in Pro Tools?",
+    "options": ["Bounced Files", "Audio Files", "Session File Backups", "Clip Groups"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Qual è la cartella di default in cui Pro Tools salva i bounce di una sessione?",
+    "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale cartella contiene le copie di backup automatiche del file .ptx?",
+    "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale file contiene le informazioni per la visualizzazione grafica delle forme d'onda in Pro Tools?",
+    "options": ["Nome_sessione.ptx", "WaveCache.wfm", "Audio Files", "Bounced Files"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa sono le 'clip' in Pro Tools?",
+    "options": ["File audio completi", "Plugin audio", "Automazioni di traccia", "Contenitori di metadati"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quali sono le due categorie principali in cui si dividono le clip?",
+    "options": ["Clip audio e clip MIDI", "Clip attive e clip inattive", "Whole-file clip e Subset clip", "Clip compresse e clip non compresse"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale tipo di clip fa riferimento a un file audio intero?",
+    "options": ["Subset clip", "Whole-file clip", "Entrambe", "Nessuna delle due"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quali sono le finestre principali di Pro Tools?",
+    "options": ["Edit Window e Mix Window", "Transport Window e MIDI Editor", "Score Editor", "Tutte le precedenti"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale finestra di Pro Tools fornisce una visualizzazione delle tracce e delle loro informazioni nel tempo?",
+    "options": ["Mix Window", "Transport Window", "Edit Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale finestra di Pro Tools è dedicata al mixaggio audio?",
+    "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale finestra di Pro Tools contiene i controlli di riproduzione e registrazione?",
+    "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale finestra di Pro Tools è utilizzata per modificare i dati MIDI?",
+    "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale finestra di Pro Tools permette di visualizzare e modificare i dati MIDI come notazione musicale?",
+    "options": ["Edit Window", "Mix Window", "MIDI Editor", "Score Editor"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Come si chiama il browser di ricerca integrato in Pro Tools?",
+    "options": ["Media Browser", "File Explorer", "Workspace", "Sound Finder"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale funzione permette di importare dati da altre sessioni di Pro Tools nella sessione corrente?",
+    "options": ["Import Audio", "Import MIDI", "Import Session Data", "File Merge"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa si intende per 'I/O Setup' in Pro Tools?",
+    "options": ["Impostazioni di visualizzazione", "Configurazione dei plugin", "Mappatura di ingressi e uscite audio", "Preferenze di editing"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Qual è l'equivalenza standard in ambito professionale tra dBu e dBFS?",
+    "options": ["+4 dBu = -16 dBFS", "+4 dBu = -18 dBFS", "+4 dBu = 0 dBFS", "+4 dBu = +16 dBFS"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
+    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Qual è lo standard de facto nella produzione e post-produzione musicale ed audio/video?",
+    "options": ["Logic Pro", "Ableton Live", "Pro Tools", "Cubase"],
+    "correctAnswerIndex": 2
+  },
+
+  {
+    "text": "Quale finestra di Pro Tools è principalmente utilizzata per l'editing audio e MIDI?",
+    "options": ["Mix Window", "Transport Window", "Edit Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa indica la 'Playlist Attiva' nella Edit Window?",
+    "options": [
+      "La quantità di plugin inseriti nella traccia",
+      "La traccia selezionata per la registrazione",
+      "La playlist attualmente visualizzata e/o modificata",
+      "Il livello di volume della traccia"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale funzione permette di abilitare o disabilitare il 'freeze' di una traccia?",
+    "options": ["Rec Enable", "Input Monitoring", "Solo", "Freeze"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Cosa determina l'impostazione 'Timebase' di una traccia?",
+    "options": [
+      "La velocità di riproduzione della traccia",
+      "Se la traccia è audio o MIDI",
+      "Se la traccia è 'sample-based' o 'tick-based'",
+      "Il tipo di plugin inseriti nella traccia"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quali informazioni possono essere visualizzate nella parte destra dell'area delle tracce nell'Edit Window?",
+    "options": [
+      "Forma d'onda, volume, pan",
+      "Solo i plugin inseriti",
+      "Solo le automazioni",
+      "Solo i commenti"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Quanti insert e send sono disponibili per traccia in Pro Tools?",
+    "options": ["5", "10", "16", "Illimitati"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quali tipi di tracce è possibile creare in Pro Tools?",
+    "options": [
+      "Audio, Aux, Master, MIDI",
+      "Solo Audio e MIDI",
+      "Solo Aux e Master",
+      "Audio, Video e Strumento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "A cosa servono le 'Tracce Aux' in Pro Tools?",
+    "options": [
+      "Solo per registrare audio",
+      "Solo per strumenti virtuali",
+      "Per mandate effetti, gruppi audio, monitoraggio cuffie, strumenti virtuali",
+      "Solo per il master del mix"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Qual è la funzione delle 'Tracce Master Fader'?",
+    "options": [
+      "Controllare il volume delle tracce audio",
+      "Gestire gli effetti di riverbero",
+      "Controllare l'output di un bus o dell'intera sessione",
+      "Inviare segnali a dispositivi esterni"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa sono le 'Clip Groups' in Pro Tools?",
+    "options": [
+      "Gruppi di plugin",
+      "Cartelle per organizzare i file audio",
+      "Raggruppamenti di clip audio, MIDI o video per facilitare l'editing",
+      "Effetti audio speciali"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale 'Edit Tool' è utilizzato per selezionare un intervallo di tempo su più tracce?",
+    "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale 'Edit Tool' permette di spostare una clip audio avanti o indietro nel tempo?",
+    "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale 'Edit Tool' è utilizzato per tagliare l'inizio o la fine di una clip audio?",
+    "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "In quale 'Edit Mode' le clip si spostano in relazione alla griglia temporale?",
+    "options": ["Slip Mode", "Shuffle Mode", "Spot Mode", "Grid Mode"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "In quale 'Edit Mode' le clip si spostano liberamente senza vincoli temporali?",
+    "options": ["Slip Mode", "Shuffle Mode", "Spot Mode", "Grid Mode"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "In quale 'Edit Mode' le clip si spostano in modo da riempire lo spazio lasciato libero da altre clip?",
+    "options": ["Slip Mode", "Shuffle Mode", "Spot Mode", "Grid Mode"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale finestra di Pro Tools mostra i controlli di riproduzione e registrazione?",
+    "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Qual è l'equivalenza standard in ambito professionale tra dBu e dBFS?",
+    "options": ["+4 dBu = -16 dBFS", "+4 dBu = -18 dBFS", "+4 dBu = 0 dBFS", "+4 dBu = +16 dBFS"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
+    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Quale cartella contiene le copie di backup automatiche del file .ptx?",
+    "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
+    "correctAnswerIndex": 2
+  },
+
+  {
+    "text": "Quali sono i passaggi fondamentali per registrare una traccia in Pro Tools?",
+    "options": [
+      "Assegnare input/output, armare la traccia, premere il tasto 'Play'",
+      "Assegnare input/output, armare la traccia, premere il tasto 'Record'",
+      "Solo armare la traccia e premere il tasto 'Record'",
+      "Creare la traccia e premere il tasto 'Play'"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale combinazione di tasti si usa per avviare la registrazione in Pro Tools (Windows)?",
+    "options": ["Cmd+Spacebar", "Ctrl+Spacebar", "Alt+Spacebar", "Shift+Spacebar"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa sono le 'Playlist' in Pro Tools?",
+    "options": [
+      "Raccolte di plugin",
+      "Diversi arrangiamenti della stessa canzone",
+      "Metodi per esportare file audio",
+      "Strumenti per l'automazione"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quante opzioni di salvataggio sono disponibili in Pro Tools?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswerIndex": 4
+  },
+  {
+    "text": "Quale opzione di salvataggio crea una copia della sessione e dei file audio in una nuova posizione?",
+    "options": ["Save", "Save As", "Save Copy In", "Save Session As Template"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa fa l'opzione 'Save Session As Template'?",
+    "options": [
+      "Salva la sessione con un nuovo nome",
+      "Salva solo i file audio",
+      "Crea un modello riutilizzabile per future sessioni",
+      "Esporta la sessione in un altro formato"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Qual è il formato di file principale utilizzato per salvare le sessioni di Pro Tools?",
+    "options": [".wav", ".mp3", ".ptx", ".aiff"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Dove vengono salvati automaticamente i file audio importati e creati in Pro Tools?",
+    "options": ["Nella cartella della sessione", "In una cartella temporanea", "Sul desktop", "In 'Bounced Files'"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Quale funzione permette di importare dati da altre sessioni di Pro Tools?",
+    "options": ["Import Audio", "Import MIDI", "Import Session Data", "File Merge"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa è possibile importare da altre sessioni con 'Import Session Data'?",
+    "options": [
+      "Solo file audio",
+      "Solo plugin",
+      "Tracce, clip, automazioni, impostazioni di mixaggio",
+      "Solo impostazioni di tempo"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quali tipi di file è possibile importare in Pro Tools?",
+    "options": ["Solo audio", "Solo MIDI", "Audio, MIDI, Video", "Solo testo"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Come si importa un file audio in Pro Tools?",
+    "options": [
+      "File > Import > Audio",
+      "File > Import > MIDI",
+      "File > Open",
+      "Trascinandolo direttamente nella finestra Edit"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Qual è il sample rate standard per l'audio nei CD?",
+    "options": ["44.1 kHz", "48 kHz", "96 kHz", "192 kHz"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Quale finestra di Pro Tools è principalmente utilizzata per l'editing audio e MIDI?",
+    "options": ["Mix Window", "Transport Window", "Edit Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale 'Edit Tool' è utilizzato per selezionare un intervallo di tempo su più tracce?",
+    "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa indica il valore di '+4 dBu'?",
+    "options": [
+      "Livello di picco massimo",
+      "Livello di linea standard",
+      "Soglia del dolore",
+      "Livello di microfono"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cos'è il dBFS?",
+    "options": [
+      "Unità di misura della pressione sonora",
+      "Unità di misura della tensione elettrica",
+      "Scala per misurare l'ampiezza in sistemi digitali",
+      "Tipo di plugin per Pro Tools"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
+    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "In quale cartella vengono salvate le copie di backup automatiche del file .ptx?",
+    "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale finestra di Pro Tools contiene i controlli di riproduzione e registrazione?",
+    "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+
+  {
+    "text": "Quale shortcut di tastiera si usa per separare una clip in Pro Tools (Windows)?",
+    "options": ["Cmd+E", "Ctrl+E", "Alt+E", "Shift+E"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa si intende per 'Trim Clip' in Pro Tools?",
+    "options": [
+      "Applicare un effetto alla clip",
+      "Dividere la clip in più parti",
+      "Modificare il volume della clip",
+      "Tagliare l'inizio o la fine della clip"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "text": "Qual è la funzione del comando 'Heal Separation'?",
+    "options": [
+      "Guarire una traccia danneggiata",
+      "Ripristinare un taglio in una clip",
+      "Applicare un fade alla clip",
+      "Consolidare più clip"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa permette di fare l'opzione 'Consolidate Clips'?",
+    "options": [
+      "Unire più tracce audio",
+      "Creare una nuova clip da clip diverse",
+      "Salvare una sessione",
+      "Importare file audio"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale finestra di Pro Tools è principalmente utilizzata per l'editing audio e MIDI?",
+    "options": ["Mix Window", "Transport Window", "Edit Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale 'Edit Tool' è utilizzato per selezionare un intervallo di tempo su più tracce?",
+    "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "In quale 'Edit Mode' le clip si spostano in relazione alla griglia temporale?",
+    "options": ["Slip Mode", "Shuffle Mode", "Spot Mode", "Grid Mode"],
+    "correctAnswerIndex": 4
+  },
+  {
+    "text": "Quale tipo di file contiene tutte le informazioni relative alle operazioni compiute in Pro Tools ma non i file audio stessi?",
+    "options": [".wav", ".ptx", ".aiff", ".mp3"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "In quale cartella vengono salvati automaticamente i file audio importati e creati in Pro Tools?",
+    "options": ["Bounced Files", "Audio Files", "Session File Backups", "Clip Groups"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Qual è la cartella di default in cui Pro Tools salva i bounce di una sessione?",
+    "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa sono le 'clip' in Pro Tools?",
+    "options": [
+      "File audio completi",
+      "Plugin audio",
+      "Automazioni di traccia",
+      "Contenitori di metadati"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "text": "Quali sono le due categorie principali in cui si dividono le clip?",
+    "options": [
+      "Clip audio e clip MIDI",
+      "Clip attive e clip inattive",
+      "Whole-file clip e Subset clip",
+      "Clip compresse e clip non compresse"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Qual è lo standard de facto nella produzione e post-produzione musicale ed audio/video?",
+    "options": ["Logic Pro", "Ableton Live", "Pro Tools", "Cubase"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale software è il 'centro di controllo' per l'installazione e l'aggiornamento di Pro Tools?",
+    "options": ["iLok License Manager", "Avid Link", "Pro Tools", "Avid Control"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa indica il valore di '+4 dBu'?",
+    "options": [
+      "Livello di picco massimo",
+      "Livello di linea standard",
+      "Soglia del dolore",
+      "Livello di microfono"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cos'è il dBFS?",
+    "options": [
+      "Unità di misura della pressione sonora",
+      "Unità di misura della tensione elettrica",
+      "Scala per misurare l'ampiezza in sistemi digitali",
+      "Tipo di plugin per Pro Tools"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
+    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quali sono i passaggi fondamentali per registrare una traccia in Pro Tools?",
+    "options": [
+      "Assegnare input/output, armare la traccia, premere il tasto 'Play'",
+      "Assegnare input/output, armare la traccia, premere il tasto 'Record'",
+      "Solo armare la traccia e premere il tasto 'Record'",
+      "Creare la traccia e premere il tasto 'Play'"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa sono le 'Playlist' in Pro Tools?",
+    "options": [
+      "Raccolte di plugin",
+      "Diversi arrangiamenti della stessa canzone",
+      "Metodi per esportare file audio",
+      "Strumenti per l'automazione"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale combinazione di tasti si usa per avviare la registrazione in Pro Tools (Windows)?",
+    "options": ["Cmd+Spacebar", "Ctrl+Spacebar", "Alt+Spacebar", "Shift+Spacebar"],
+    "correctAnswerIndex": 2
+  },
+
+  {
+    "text": "Cosa fa la funzione 'Freeze' in Pro Tools?",
+    "options": [
+      "Crea un render definitivo della traccia",
+      "Consente di modificare il tempo della traccia senza cambiare l'intonazione",
+      "Congela temporaneamente una traccia per risparmiare risorse della CPU",
+      "Applica un effetto di riverbero alla traccia"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Qual è la differenza principale tra 'Freeze' e 'Commit'?",
+    "options": [
+      "Freeze è permanente, Commit è temporaneo",
+      "Freeze crea una nuova traccia, Commit modifica la traccia originale",
+      "Freeze è temporaneo, Commit crea una nuova traccia con il render",
+      "Non c'è differenza tra Freeze e Commit"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Cosa permette di fare l'opzione 'Freeze up to this insert'?",
+    "options": [
+      "Congelare tutti gli insert della traccia",
+      "Congelare solo il primo insert",
+      "Congelare la traccia escludendo gli insert",
+      "Congelare la traccia fino a un punto specifico degli insert"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "text": "In Pro Tools, le automazioni possono essere applicate a...",
+    "options": [
+      "Solo al volume",
+      "Solo al pan",
+      "Solo ai plugin",
+      "Volume, pan e parametri dei plugin"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "text": "Quali sono le modalità di visualizzazione delle automazioni in Pro Tools?",
+    "options": [
+      "Read, Write, Touch, Latch",
+      "Solo Read e Write",
+      "Solo Touch e Latch",
+      "Play, Record, Edit, Mix"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa fa la modalità di automazione 'Write'?",
+    "options": [
+      "Legge le automazioni esistenti",
+      "Scrive nuove automazioni durante la riproduzione",
+      "Aggiorna l'automazione solo quando il parametro viene rilasciato",
+      "Mantiene l'ultimo valore scritto fino a quando non viene modificato"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Qual è la funzione della modalità di automazione 'Touch'?",
+    "options": [
+      "Scrive l'automazione e ritorna al valore originale quando il controllo viene rilasciato",
+      "Scrive l'automazione continuamente",
+      "Legge l'automazione esistente",
+      "Mantiene l'ultimo valore scritto"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa si intende per 'Template di Mix' in Pro Tools?",
+    "options": [
+      "Un preset di effetti",
+      "Una sessione preconfigurata per il mixaggio",
+      "Un plugin per il mixaggio automatico",
+      "Un formato di file per esportare il mix"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quali elementi possono essere inclusi in un Template di Mix?",
+    "options": [
+      "Solo tracce audio",
+      "Solo plugin",
+      "Routing, bus, effetti, master",
+      "Solo automazioni"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Qual è il vantaggio di utilizzare un Template di Mix?",
+    "options": [
+      "Velocizzare il processo di mixaggio",
+      "Avere un mix predefinito",
+      "Limitare la creatività",
+      "Non è necessario"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale finestra di Pro Tools è principalmente utilizzata per il mixaggio audio?",
+    "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa indica il valore di '+4 dBu'?",
+    "options": [
+      "Livello di picco massimo",
+      "Livello di linea standard",
+      "Soglia del dolore",
+      "Livello di microfono"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cos'è il dBFS?",
+    "options": [
+      "Unità di misura della pressione sonora",
+      "Unità di misura della tensione elettrica",
+      "Scala per misurare l'ampiezza in sistemi digitali",
+      "Tipo di plugin per Pro Tools"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
+    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Quale shortcut di tastiera si usa per separare una clip in Pro Tools (Windows)?",
+    "options": ["Cmd+E", "Ctrl+E", "Alt+E", "Shift+E"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Cosa si intende per 'Trim Clip' in Pro Tools?",
+    "options": [
+      "Applicare un effetto alla clip",
+      "Dividere la clip in più parti",
+      "Modificare il volume della clip",
+      "Tagliare l'inizio o la fine della clip"
+    ],
+    "correctAnswerIndex": 4
+  },
+  {
+    "text": "Qual è la funzione del comando 'Heal Separation'?",
+    "options": [
+      "Guarire una traccia danneggiata",
+      "Ripristinare un taglio in una clip",
+      "Applicare un fade alla clip",
+      "Consolidare più clip"
+    ],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Quale opzione di salvataggio crea una copia della sessione e dei file audio in una nuova posizione?",
+    "options": ["Save", "Save As", "Save Copy In", "Save Session As Template"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Cosa fa l'opzione 'Save Session As Template'?",
+    "options": [
+      "Salva la sessione con un nuovo nome",
+      "Salva solo i file audio",
+      "Crea un modello riutilizzabile per future sessioni",
+      "Esporta la sessione in un altro formato"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Dove vengono salvati automaticamente i file audio importati e creati in Pro Tools?",
+    "options": ["Nella cartella della sessione", "In una cartella temporanea", "Sul desktop", "In 'Bounced Files'"],
+    "correctAnswerIndex": 1
+  }
 ]
