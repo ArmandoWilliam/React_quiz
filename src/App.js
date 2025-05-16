@@ -9,6 +9,7 @@ function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [quizEnded, setQuizEnded] = useState(false);
+  const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
 
   useEffect(() => {
     const shuffledQuestions = [...questionsData].sort(() => Math.random() - 0.5).slice(0, 31);
@@ -16,13 +17,19 @@ function App() {
   }, []);
 
   const handleAnswerSelect = (selectedIndex) => {
+    setSelectedAnswerIndex(selectedIndex);
+
     if (selectedIndex === questions[currentQuestionIndex].correctAnswerIndex) {
       setScore(score + 1);
     }
 
     const nextQuestionIndex = currentQuestionIndex + 1;
     if (nextQuestionIndex < questions.length) {
-      setCurrentQuestionIndex(nextQuestionIndex);
+      //  Delay the transition to the next question
+      setTimeout(() => {
+        setCurrentQuestionIndex(nextQuestionIndex);
+        setSelectedAnswerIndex(null); // Reset selected answer
+      }, 1000); // 1000 milliseconds = 1 second
     } else {
       setQuizEnded(true);
     }
@@ -34,6 +41,19 @@ function App() {
     setCurrentQuestionIndex(0);
     setScore(0);
     setQuizEnded(false);
+    setSelectedAnswerIndex(null); // Reset selected answer
+  };
+
+  const getButtonClassName = (index) => {
+    let className = '';
+    if (selectedAnswerIndex !== null) {
+      if (index === questions[currentQuestionIndex].correctAnswerIndex) {
+        className = 'correct';
+      } else if (index === selectedAnswerIndex) {
+        className = 'incorrect';
+      }
+    }
+    return className;
   };
 
   if (questions.length === 0) {
@@ -48,6 +68,8 @@ function App() {
           <Question
             question={questions[currentQuestionIndex]}
             onAnswerSelect={handleAnswerSelect}
+            getButtonClassName={getButtonClassName}
+            selectedAnswerIndex={selectedAnswerIndex}
           />
         </div>
       ) : (

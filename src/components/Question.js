@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Question({ question, onAnswerSelect }) {
+function Question({ question, onAnswerSelect, getButtonClassName, selectedAnswerIndex }) {
   const handleAnswer = (selectedIndex) => {
     onAnswerSelect(selectedIndex);
   };
@@ -11,7 +11,13 @@ function Question({ question, onAnswerSelect }) {
       <ul>
         {question.options.map((option, index) => (
           <li key={index}>
-            <button onClick={() => handleAnswer(index)}>{option}</button>
+            <button
+              onClick={() => handleAnswer(index)}
+              className={getButtonClassName(index)}
+              disabled={selectedAnswerIndex !== null}
+            >
+              {option}
+            </button>
           </li>
         ))}
       </ul>
