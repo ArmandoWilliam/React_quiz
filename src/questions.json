@@ -15,8 +15,11 @@
       "correctAnswerIndex": 1
     },
     {
-      "text": "In una scala logaritmica, ogni step mantiene la stessa proporzione di quale elemento?",
-      "options": ["Step successivo", "Step precedente", "Metà dello step precedente", "Doppio dello step precedente"],
+      "text": "In una scala logaritmica, come varia ogni step?",
+      "options": ["Mantiene la stessa grandezza dello step precedente",
+                   "Ha la stessa grandezza dello step successivo", 
+                   "Mantiene la stessa proporzione dello step precendete", 
+                   "Doppio dello step precedente"],
       "correctAnswerIndex": 1
     },
     {
@@ -35,8 +38,8 @@
       "correctAnswerIndex": 2
     },
     {
-      "text": "Cosa misurano Bel e decibel?",
-      "options": ["Pressione sonora", "Rapporti di potenze", "Tensione elettrica", "Frequenza"],
+      "text": "Come risulta comodo esprimere la variazione delle grandezze in gioco nel campo dell'audio, ad esempio la pressione sonora?",
+      "options": ["In termini assoluti", "Rispetto ad un valore di riferimento", "In scala lineare", "In scala esponenziale"],
       "correctAnswerIndex": 2
     },
     {
@@ -50,12 +53,12 @@
       "correctAnswerIndex": 0
     },
     {
-      "text": "Di quanti dB varia il livello quando si raddoppia o si dimezza la potenza?",
+      "text": "Che variazione ho in dB quando si raddoppia o si dimezza un valore di potenza?",
       "options": ["1 dB", "3 dB", "6 dB", "10 dB"],
       "correctAnswerIndex": 1
     },
     {
-      "text": "Di quanti dB varia il valore misurato quando si raddoppia o si dimezza (valori non di potenza)?",
+      "text": "Che variazione ho in dB quando si raddoppia o si dimezza un valore non di potenza?",
       "options": ["1 dB", "3 dB", "6 dB", "10 dB"],
       "correctAnswerIndex": 2
     },
@@ -75,7 +78,7 @@
       "correctAnswerIndex": 3
     },
     {
-      "text": "Qual è il livello di linea ottimale in dBu?",
+      "text": "Qual è il livello di linea ottimale in dBu in una catena audio?",
       "options": ["+2 dBu", "+4 dBu", "+6 dBu", "+8 dBu"],
       "correctAnswerIndex": 1
     },
@@ -95,12 +98,12 @@
       "correctAnswerIndex": 1
     },
     {
-      "text": "In quale dominio i segnali vengono rappresentati come valori discreti (combinazioni di bit)?",
+      "text": "In quale dominio i segnali vengono rappresentati nelle DAW?",
       "options": ["Analogico", "Digitale", "Entrambi", "Nessuno dei due"],
       "correctAnswerIndex": 1
     },
     {
-      "text": "Quale tipo di codifica dell'audio digitale è la più utilizzata e rappresenta lo standard nell'audio professionale?",
+      "text": "Quale tipo di codifica di un segnale audio analogico in uno digitale è la più utilizzata e rappresenta lo standard nell'audio professionale?",
       "options": ["MP3", "AAC", "PCM", "FLAC"],
       "correctAnswerIndex": 2
     },
@@ -110,8 +113,8 @@
       "correctAnswerIndex": 1
     },
     {
-      "text": "Quali sono le due fasi principali della digitalizzazione di un segnale?",
-      "options": ["Compressione e decompressione", "Modulazione e demodulazione", "Campionamento e quantizzazione", "Codifica e decodifica"],
+      "text": "Quali sono, NELL'ORDINE CORRETTO, le due fasi principali della digitalizzazione di un segnale analogico?",
+      "options": ["Compressione e decompressione", "Modulazione e demodulazione", "Campionamento e quantizzazione", "Quantizzazione e campionamento"],
       "correctAnswerIndex": 2
     },
     {
@@ -120,7 +123,7 @@
       "correctAnswerIndex": 1
     },
     {
-      "text": "Quale fase della digitalizzazione si occupa dell'asse del tempo?",
+      "text": "Quale fase della digitalizzazione si occupa di prelevare il segnale sull'asse del tempo?",
       "options": ["Quantizzazione", "Campionamento", "Entrambe", "Nessuna delle due"],
       "correctAnswerIndex": 2
     },
@@ -130,7 +133,7 @@
       "correctAnswerIndex": 1
     },
     {
-      "text": "Quale fase della digitalizzazione si occupa della rappresentazione dell'ampiezza?",
+      "text": "Quale fase della digitalizzazione si occupa della rappresentazione dell'ampiezza del segnale, misurata in un dato momento?",
       "options": ["Campionamento", "Quantizzazione", "Entrambe", "Nessuna delle due"],
       "correctAnswerIndex": 1
     },
@@ -146,7 +149,7 @@
     },
     {
       "text": "Come viene definita la frequenza di campionamento?",
-      "options": ["Numero di bit per campione", "Numero di misurazioni al secondo", "Ampiezza del segnale", "Durata del segnale"],
+      "options": ["Numero di bit per campione", "Numero di misurazioni al secondo (sample rate)", "Ampiezza del segnale", "Durata del segnale"],
       "correctAnswerIndex": 1
     },
     {
@@ -174,15 +177,30 @@
       "options": ["44.1 kHz", "48 kHz", "96 kHz", "192 kHz"],
       "correctAnswerIndex": 2
     },
-     {
+    {
       "text": "Come viene chiamata l'operazione di misurazione e rappresentazione dell'ampiezza di un campione sotto forma di sequenza di bit?",
       "options": ["Campionamento", "Quantizzazione", "Codifica", "Modulazione"],
       "correctAnswerIndex": 1
     },
     {
-      "text": "Come viene chiamata la profondità di bit?",
-      "options": ["Bit rate", "Sample rate", "Bit depth", "Frame rate"],
+      "text": "Perché è necessario quantizzare un segnale?",
+      "options": ["Per permettere al calcolatore di elaborarlo", "Per poi poterlo campionare correttamente", "Per avere maggiore qualità in fase di registrazione", "Per evitare rumori"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Che cosa è la Bit depth?",
+      "options": ["Il numero di bit usati per rappresentare un sample", "I bit necessari in fase di campionamento del segnale", "Un valore che rappresenta l'errore di quantizzazione possibile", "I bit totali che possiede il computer per elaborare il segnale"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Quanti bit mi bastano per non avere perdita di informazione nella quantizzazione?",
+      "options": ["16", "256", "Nella quantizzazione ho sempre perdita di informazione", "512"],
       "correctAnswerIndex": 2
+    },
+    {
+      "text": "Cosa devo fare per minimizzare l'errore di quantizzazione?",
+      "options": ["Aumentare il sample rate", "Avere una profondità di bit sufficientemente elevata", "Diminuire la bit depth", "Diminuire il sample rate"],
+      "correctAnswerIndex": 1
     },
     {
       "text": "Cosa genera l'approssimazione del segnale in ingresso durante la quantizzazione?",
@@ -195,9 +213,14 @@
       "correctAnswerIndex": 2
     },
     {
-      "text": "Da cosa è data la gamma dinamica di un segnale digitale?",
-      "options": ["Dalla frequenza di campionamento", "Dalla profondità di bit", "Dalla compressione del segnale", "Dalla velocità di trasmissione"],
+      "text": "A che cosa è strettamente legata la gamma dinamica di un segnale digitale?",
+      "options": ["Alla frequenza di campionamento", "Alla profondità di bit", "Alla compressione del segnale", "Alla velocità di trasmissione"],
       "correctAnswerIndex": 1
+    },
+    {
+      "text": "Da cosa è data la gamma dinamica di un segnale digitale?",
+      "options": ["Dalla differenza tra il massimo valore rappresentabile in dbfs e l'ampiezza del rumore", "Dalla profondità di bit", "Dalla compressione del segnale", "Dalla quantità di distorsione presente"],
+      "correctAnswerIndex": 0
     },
     {
       "text": "Di quanti dB aumenta la gamma dinamica per ogni bit aggiunto?",
@@ -205,9 +228,14 @@
       "correctAnswerIndex": 1
     },
     {
-      "text": "Qual è la profondità di bit consigliata per un rapporto segnale/rumore ottimale?",
+      "text": "Qual è la profondità di bit minima consigliata per un rapporto segnale/rumore ottimale?",
       "options": ["8 bit", "12 bit", "16 bit", "24 bit"],
       "correctAnswerIndex": 2
+    },
+    {
+      "text": "Quale profondità di bit è considerata LO STANDARD per un rapporto segnale/rumore ottimale?",
+      "options": ["8 bit", "12 bit", "16 bit", "24 bit"],
+      "correctAnswerIndex": 3
     },
     {
       "text": "In quale unità di misura viene espressa convenzionalmente l'ampiezza di un segnale in un sistema digitale?",
@@ -244,6 +272,8 @@
       "options": ["-16 dBFS", "-18 dBFS", "0 dBFS", "+4 dBu"],
       "correctAnswerIndex": 1
     },
+
+
     {
       "text": "Quale tra questi NON è un formato di file che Pro Tools può importare?",
       "options": [".wav", ".mp3", ".aiff", ".ptx"],
@@ -289,7 +319,6 @@
       "options": ["Edit Window e Mix Window", "Transport Window e MIDI Editor", "Score Editor", "Tutte le precedenti"],
       "correctAnswerIndex": 3
     },
-
     {
     "text": "Qual è uno dei principali motivi per cui si usa Pro Tools?",
     "options": [
@@ -299,11 +328,6 @@
       "Non è compatibile con altri software"
     ],
     "correctAnswerIndex": 1
-  },
-  {
-    "text": "Quale versione di Pro Tools NON è menzionata nelle slide?",
-    "options": ["Pro Tools Intro", "Pro Tools Artist", "Pro Tools Studio", "Pro Tools Basic"],
-    "correctAnswerIndex": 3
   },
   {
     "text": "Quale software è il 'centro di controllo' per l'installazione e l'aggiornamento di Pro Tools?",
@@ -351,7 +375,7 @@
     "correctAnswerIndex": 2
   },
   {
-    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale su DSP?",
+    "text": "Quale tipo di plugin AAX viene eseguito con zero-latency sulle schede HDX?",
     "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
     "correctAnswerIndex": 2
   },
@@ -359,6 +383,44 @@
     "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
     "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
     "correctAnswerIndex": 0
+  },
+  {
+    "text": "Che tipo di interfaccia è Avid HD I/O?",
+    "options": ["Una soluzione all in one per collegare gli strumenti alla DAW", 
+                "Un convertitore DA/AD", 
+                "Un tipo di interfaccia che in grado di preaplificare un microfono", 
+                "Un convertitore AD/DA"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Che tipo di interfaccia è Avid Carbon?",
+    "options": [
+      "Un interfaccia audio All in One",
+      "Un preamplificatore",
+      "Solo un convertitore AD/DA",
+      "Una semplice scheda audio"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Quanti canali può portare la Avid HD MADI su un unico cavo fibra ottica?",
+    "options": [
+      "32 canali",
+      "64 canali",
+      "16 canali",
+      "128 canali"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "A cosa serve la Avid SYNC HD?",
+    "options": [
+      "A sincronizzasre pro tools con il clock del pc",
+      "A sincronizzare le interfacce",
+      "A sincronizzare le interface, pro tools ed eventuali macchine esterne collegate a pro tools",
+      "A sincronizzare le interface e pro tools"
+    ],
+    "correctAnswerIndex": 2
   },
   {
     "text": "Qual è la funzione dei plugin AudioSuite?",
@@ -375,7 +437,7 @@
     "options": [
       "Un tipo di interfaccia audio",
       "Un formato di file audio",
-      "Un'estensione per plugin che consente un'integrazione più profonda",
+      "Un estensione che consente evitare le limitazioni che impongono alcuni plugin, sull'editing di un file, senza utilizzare l'istanza di insert",
       "Un protocollo di comunicazione MIDI"
     ],
     "correctAnswerIndex": 2
@@ -486,6 +548,7 @@
     "correctAnswerIndex": 2
   },
 
+
   {
     "text": "Quale tipo di file contiene tutte le informazioni relative alle operazioni compiute in Pro Tools ma non i file audio stessi?",
     "options": [".wav", ".ptx", ".aiff", ".mp3"],
@@ -500,11 +563,6 @@
     "text": "Qual è la cartella di default in cui Pro Tools salva i bounce di una sessione?",
     "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
     "correctAnswerIndex": 1
-  },
-  {
-    "text": "Quale cartella contiene le copie di backup automatiche del file .ptx?",
-    "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
-    "correctAnswerIndex": 2
   },
   {
     "text": "Quale file contiene le informazioni per la visualizzazione grafica delle forme d'onda in Pro Tools?",
@@ -525,6 +583,14 @@
     "text": "Quale tipo di clip fa riferimento a un file audio intero?",
     "options": ["Subset clip", "Whole-file clip", "Entrambe", "Nessuna delle due"],
     "correctAnswerIndex": 1
+  },
+  {
+    "text": "Cosa sono le sotto-clip?",
+    "options": ["Subset clip che fanno riferimento a porzioni di file", 
+                "Parti di clip generate dopo un export della clip", 
+                "Una parte di traccia", 
+                "Nessuna delle precedenti"],
+    "correctAnswerIndex": 0
   },
   {
     "text": "Quali sono le finestre principali di Pro Tools?",
@@ -572,27 +638,6 @@
     "correctAnswerIndex": 2
   },
   {
-    "text": "Qual è l'equivalenza standard in ambito professionale tra dBu e dBFS?",
-    "options": ["+4 dBu = -16 dBFS", "+4 dBu = -18 dBFS", "+4 dBu = 0 dBFS", "+4 dBu = +16 dBFS"],
-    "correctAnswerIndex": 1
-  },
-  {
-    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
-    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
-    "correctAnswerIndex": 0
-  },
-  {
-    "text": "Qual è lo standard de facto nella produzione e post-produzione musicale ed audio/video?",
-    "options": ["Logic Pro", "Ableton Live", "Pro Tools", "Cubase"],
-    "correctAnswerIndex": 2
-  },
-
-  {
-    "text": "Quale finestra di Pro Tools è principalmente utilizzata per l'editing audio e MIDI?",
-    "options": ["Mix Window", "Transport Window", "Edit Window", "MIDI Editor"],
-    "correctAnswerIndex": 2
-  },
-  {
     "text": "Cosa indica la 'Playlist Attiva' nella Edit Window?",
     "options": [
       "La quantità di plugin inseriti nella traccia",
@@ -615,7 +660,7 @@
       "Se la traccia è 'sample-based' o 'tick-based'",
       "Il tipo di plugin inseriti nella traccia"
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Quali informazioni possono essere visualizzate nella parte destra dell'area delle tracce nell'Edit Window?",
@@ -650,14 +695,14 @@
       "Per mandate effetti, gruppi audio, monitoraggio cuffie, strumenti virtuali",
       "Solo per il master del mix"
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Qual è la funzione delle 'Tracce Master Fader'?",
     "options": [
       "Controllare il volume delle tracce audio",
       "Gestire gli effetti di riverbero",
-      "Controllare l'output di un bus o dell'intera sessione",
+      "Controllare in post-fade un output o un bus",
       "Inviare segnali a dispositivi esterni"
     ],
     "correctAnswerIndex": 2
@@ -670,12 +715,7 @@
       "Raggruppamenti di clip audio, MIDI o video per facilitare l'editing",
       "Effetti audio speciali"
     ],
-    "correctAnswerIndex": 3
-  },
-  {
-    "text": "Quale 'Edit Tool' è utilizzato per selezionare un intervallo di tempo su più tracce?",
-    "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 2
   },
   {
     "text": "Quale 'Edit Tool' permette di spostare una clip audio avanti o indietro nel tempo?",
@@ -707,21 +747,6 @@
     "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
     "correctAnswerIndex": 2
   },
-  {
-    "text": "Qual è l'equivalenza standard in ambito professionale tra dBu e dBFS?",
-    "options": ["+4 dBu = -16 dBFS", "+4 dBu = -18 dBFS", "+4 dBu = 0 dBFS", "+4 dBu = +16 dBFS"],
-    "correctAnswerIndex": 1
-  },
-  {
-    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
-    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
-    "correctAnswerIndex": 0
-  },
-  {
-    "text": "Quale cartella contiene le copie di backup automatiche del file .ptx?",
-    "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
-    "correctAnswerIndex": 2
-  },
 
   {
     "text": "Quali sono i passaggi fondamentali per registrare una traccia in Pro Tools?",
@@ -742,16 +767,11 @@
     "text": "Cosa sono le 'Playlist' in Pro Tools?",
     "options": [
       "Raccolte di plugin",
-      "Diversi arrangiamenti della stessa canzone",
+      "Diverse versioni della stessa traccia",
       "Metodi per esportare file audio",
       "Strumenti per l'automazione"
     ],
     "correctAnswerIndex": 1
-  },
-  {
-    "text": "Quante opzioni di salvataggio sono disponibili in Pro Tools?",
-    "options": ["1", "2", "3", "4"],
-    "correctAnswerIndex": 4
   },
   {
     "text": "Quale opzione di salvataggio crea una copia della sessione e dei file audio in una nuova posizione?",
@@ -791,7 +811,7 @@
       "Tracce, clip, automazioni, impostazioni di mixaggio",
       "Solo impostazioni di tempo"
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Quali tipi di file è possibile importare in Pro Tools?",
@@ -819,7 +839,7 @@
     "correctAnswerIndex": 2
   },
   {
-    "text": "Quale 'Edit Tool' è utilizzato per selezionare un intervallo di tempo su più tracce?",
+    "text": "Quale 'Edit Tool' è utilizzato per selezionare un intervallo di tempo?",
     "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
     "correctAnswerIndex": 1
   },
@@ -841,12 +861,7 @@
       "Scala per misurare l'ampiezza in sistemi digitali",
       "Tipo di plugin per Pro Tools"
     ],
-    "correctAnswerIndex": 3
-  },
-  {
-    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
-    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
-    "correctAnswerIndex": 0
+    "correctAnswerIndex": 2
   },
   {
     "text": "In quale cartella vengono salvate le copie di backup automatiche del file .ptx?",
@@ -858,6 +873,7 @@
     "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
     "correctAnswerIndex": 2
   },
+
 
   {
     "text": "Quale shortcut di tastiera si usa per separare una clip in Pro Tools (Windows)?",
@@ -872,7 +888,7 @@
       "Modificare il volume della clip",
       "Tagliare l'inizio o la fine della clip"
     ],
-    "correctAnswerIndex": 4
+    "correctAnswerIndex": 3
   },
   {
     "text": "Qual è la funzione del comando 'Heal Separation'?",
@@ -892,7 +908,7 @@
       "Salvare una sessione",
       "Importare file audio"
     ],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 1
   },
   {
     "text": "Quale finestra di Pro Tools è principalmente utilizzata per l'editing audio e MIDI?",
@@ -900,19 +916,14 @@
     "correctAnswerIndex": 2
   },
   {
-    "text": "Quale 'Edit Tool' è utilizzato per selezionare un intervallo di tempo su più tracce?",
-    "options": ["Trim Tool", "Selector Tool", "Grabber Tool", "Pencil Tool"],
-    "correctAnswerIndex": 2
-  },
-  {
     "text": "In quale 'Edit Mode' le clip si spostano in relazione alla griglia temporale?",
     "options": ["Slip Mode", "Shuffle Mode", "Spot Mode", "Grid Mode"],
-    "correctAnswerIndex": 4
+    "correctAnswerIndex": 3
   },
   {
     "text": "Quale tipo di file contiene tutte le informazioni relative alle operazioni compiute in Pro Tools ma non i file audio stessi?",
     "options": [".wav", ".ptx", ".aiff", ".mp3"],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 1
   },
   {
     "text": "In quale cartella vengono salvati automaticamente i file audio importati e creati in Pro Tools?",
@@ -922,7 +933,7 @@
   {
     "text": "Qual è la cartella di default in cui Pro Tools salva i bounce di una sessione?",
     "options": ["Audio Files", "Bounced Files", "Session File Backups", "Clip Groups"],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 1
   },
   {
     "text": "Cosa sono le 'clip' in Pro Tools?",
@@ -932,7 +943,7 @@
       "Automazioni di traccia",
       "Contenitori di metadati"
     ],
-    "correctAnswerIndex": 4
+    "correctAnswerIndex": 3
   },
   {
     "text": "Quali sono le due categorie principali in cui si dividono le clip?",
@@ -942,26 +953,11 @@
       "Whole-file clip e Subset clip",
       "Clip compresse e clip non compresse"
     ],
-    "correctAnswerIndex": 3
-  },
-  {
-    "text": "Qual è lo standard de facto nella produzione e post-produzione musicale ed audio/video?",
-    "options": ["Logic Pro", "Ableton Live", "Pro Tools", "Cubase"],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Quale software è il 'centro di controllo' per l'installazione e l'aggiornamento di Pro Tools?",
     "options": ["iLok License Manager", "Avid Link", "Pro Tools", "Avid Control"],
-    "correctAnswerIndex": 2
-  },
-  {
-    "text": "Cosa indica il valore di '+4 dBu'?",
-    "options": [
-      "Livello di picco massimo",
-      "Livello di linea standard",
-      "Soglia del dolore",
-      "Livello di microfono"
-    ],
     "correctAnswerIndex": 2
   },
   {
@@ -975,11 +971,6 @@
     "correctAnswerIndex": 3
   },
   {
-    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
-    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
-    "correctAnswerIndex": 1
-  },
-  {
     "text": "Quali sono i passaggi fondamentali per registrare una traccia in Pro Tools?",
     "options": [
       "Assegnare input/output, armare la traccia, premere il tasto 'Play'",
@@ -990,19 +981,9 @@
     "correctAnswerIndex": 2
   },
   {
-    "text": "Cosa sono le 'Playlist' in Pro Tools?",
-    "options": [
-      "Raccolte di plugin",
-      "Diversi arrangiamenti della stessa canzone",
-      "Metodi per esportare file audio",
-      "Strumenti per l'automazione"
-    ],
-    "correctAnswerIndex": 2
-  },
-  {
     "text": "Quale combinazione di tasti si usa per avviare la registrazione in Pro Tools (Windows)?",
     "options": ["Cmd+Spacebar", "Ctrl+Spacebar", "Alt+Spacebar", "Shift+Spacebar"],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 1
   },
 
   {
@@ -1023,7 +1004,7 @@
       "Freeze è temporaneo, Commit crea una nuova traccia con il render",
       "Non c'è differenza tra Freeze e Commit"
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Cosa permette di fare l'opzione 'Freeze up to this insert'?",
@@ -1033,7 +1014,7 @@
       "Congelare la traccia escludendo gli insert",
       "Congelare la traccia fino a un punto specifico degli insert"
     ],
-    "correctAnswerIndex": 4
+    "correctAnswerIndex": 3
   },
   {
     "text": "In Pro Tools, le automazioni possono essere applicate a...",
@@ -1043,7 +1024,7 @@
       "Solo ai plugin",
       "Volume, pan e parametri dei plugin"
     ],
-    "correctAnswerIndex": 4
+    "correctAnswerIndex": 3
   },
   {
     "text": "Quali sono le modalità di visualizzazione delle automazioni in Pro Tools?",
@@ -1053,7 +1034,7 @@
       "Solo Touch e Latch",
       "Play, Record, Edit, Mix"
     ],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 0
   },
   {
     "text": "Cosa fa la modalità di automazione 'Write'?",
@@ -1063,7 +1044,7 @@
       "Aggiorna l'automazione solo quando il parametro viene rilasciato",
       "Mantiene l'ultimo valore scritto fino a quando non viene modificato"
     ],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 1
   },
   {
     "text": "Qual è la funzione della modalità di automazione 'Touch'?",
@@ -1083,7 +1064,7 @@
       "Un plugin per il mixaggio automatico",
       "Un formato di file per esportare il mix"
     ],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 1
   },
   {
     "text": "Quali elementi possono essere inclusi in un Template di Mix?",
@@ -1093,7 +1074,7 @@
       "Routing, bus, effetti, master",
       "Solo automazioni"
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Qual è il vantaggio di utilizzare un Template di Mix?",
@@ -1103,42 +1084,17 @@
       "Limitare la creatività",
       "Non è necessario"
     ],
-    "correctAnswerIndex": 1
+    "correctAnswerIndex": 0
   },
   {
     "text": "Quale finestra di Pro Tools è principalmente utilizzata per il mixaggio audio?",
     "options": ["Edit Window", "Mix Window", "Transport Window", "MIDI Editor"],
-    "correctAnswerIndex": 2
-  },
-  {
-    "text": "Cosa indica il valore di '+4 dBu'?",
-    "options": [
-      "Livello di picco massimo",
-      "Livello di linea standard",
-      "Soglia del dolore",
-      "Livello di microfono"
-    ],
-    "correctAnswerIndex": 2
-  },
-  {
-    "text": "Cos'è il dBFS?",
-    "options": [
-      "Unità di misura della pressione sonora",
-      "Unità di misura della tensione elettrica",
-      "Scala per misurare l'ampiezza in sistemi digitali",
-      "Tipo di plugin per Pro Tools"
-    ],
-    "correctAnswerIndex": 3
-  },
-  {
-    "text": "Quale tipo di plugin AAX viene eseguito in tempo reale sulla CPU del computer?",
-    "options": ["AAX Native", "AAX DSP", "AudioSuite", "ARA 2"],
     "correctAnswerIndex": 1
   },
   {
-    "text": "Quale shortcut di tastiera si usa per separare una clip in Pro Tools (Windows)?",
+    "text": "Quale shortcut di tastiera si usa per separare una clip in Pro Tools (Mac)?",
     "options": ["Cmd+E", "Ctrl+E", "Alt+E", "Shift+E"],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 0
   },
   {
     "text": "Cosa si intende per 'Trim Clip' in Pro Tools?",
@@ -1148,7 +1104,7 @@
       "Modificare il volume della clip",
       "Tagliare l'inizio o la fine della clip"
     ],
-    "correctAnswerIndex": 4
+    "correctAnswerIndex": 3
   },
   {
     "text": "Qual è la funzione del comando 'Heal Separation'?",
@@ -1158,12 +1114,12 @@
       "Applicare un fade alla clip",
       "Consolidare più clip"
     ],
-    "correctAnswerIndex": 2
+    "correctAnswerIndex": 1
   },
   {
     "text": "Quale opzione di salvataggio crea una copia della sessione e dei file audio in una nuova posizione?",
     "options": ["Save", "Save As", "Save Copy In", "Save Session As Template"],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Cosa fa l'opzione 'Save Session As Template'?",
@@ -1173,7 +1129,7 @@
       "Crea un modello riutilizzabile per future sessioni",
       "Esporta la sessione in un altro formato"
     ],
-    "correctAnswerIndex": 3
+    "correctAnswerIndex": 2
   },
   {
     "text": "Dove vengono salvati automaticamente i file audio importati e creati in Pro Tools?",
